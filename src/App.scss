@@ -1,5 +1,5 @@
 body{
-  background-color: aquamarine;
+  background-color: gray;
 }
 
 #trafficTop{
@@ -18,13 +18,13 @@ body{
 }
 
 .light {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   margin: auto;
   border-radius: 50%;
-  padding: 4px;
+  padding: 15px;
   &.red {background-color: #990000};
   &.yellow {background-color: #CC6600};
   &.green {background-color: #009933};
-  /*&.selected{box-shadow: #f8ffcc 0px 0px 50px 20px;}*/
+  &.selected {box-shadow: rgb(245, 245, 144)}
 }

@@ -4,6 +4,9 @@ import './index.css';
 import TrafficLight from './trafficLight';
 import * as serviceWorker from './serviceWorker';
 
+
+
+
 ReactDOM.render(<TrafficLight />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
